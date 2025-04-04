@@ -1,0 +1,12 @@
+{
+  "name": "fastapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "venv\\Scripts\\Activate && uvicorn main:app --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
