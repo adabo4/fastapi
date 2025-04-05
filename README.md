@@ -1,26 +1,32 @@
 # 🚀 FastAPI Backend Project
 
-A lightweight and high-performance backend built using **FastAPI**, designed for modern web applications. FastAPI leverages Python type hints and async features to deliver robust APIs with minimal overhead.
+This is a learning project where I'm building a backend with **FastAPI** in Python. The idea is to get hands-on with common backend features like:
+
+- Setting up routes
+- Creating and verifying JWT tokens for authentication
+- Connecting to a PostgreSQL database
+- Performing basic CRUD operations
+
+I'm using this project to better understand how a modern backend is structured and how all these pieces work together.
 
 ## 🧰 Features
 
-- 🔐 JWT-based authentication
-- 🧑‍💻 User registration & login system
-- 📬 Email/password authentication
-- 📄 Pydantic models for validation
-- 💾 SQLAlchemy ORM
-- 🔄 RESTful routes (CRUD-ready)
-- ⚡ Lightning-fast API response times
+- ✅ User registration and login
+- ✅ JWT-based authorization
+- ✅ Protected routes
+- ✅ PostgreSQL connection with SQLAlchemy
+- ✅ Basic CRUD operations (create/read/update/delete)
 
 ## 📦 Tech Stack
 
-- **Python 3.10+**
-- **FastAPI**
-- **Uvicorn** (ASGI server)
-- **Pydantic**
-- **SQLAlchemy**
-- **Passlib + Bcrypt** for password hashing
-- **Python-Jose** for JWT handling
+- **FastAPI** – Python framework for building APIs
+- **Uvicorn** – ASGI server to run FastAPI
+- **PostgreSQL** – database for storing data
+- **SQLAlchemy** – ORM for interacting with the database
+- **Pydantic** – for request/response validation
+- **python-jose** – for JWT handling
+- **passlib** – for password hashing
+- **python-dotenv** – for loading environment variables
 
 ## 🚀 Getting Started
 
@@ -61,6 +67,14 @@ Create a .env file with the following:
 SECRET_KEY=your-secret-key
 DATABASE_URL=db://user:password@host/dbname
 ```
+
+## 🧠 What I'm Practicing
+
+- Structuring a backend with routers and models
+- Validating input/output using Pydantic
+- Securing endpoints with JWT authentication
+- Interacting with a PostgreSQL database using SQLAlchemy
+- Hashing passwords and managing user auth
 
 🧪 Testing
 Coming soon: Pytest support for endpoint and model testing!
