@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from app.routers import oauth2
+from app import oauth2
 from .. import models, schemas
 from fastapi import APIRouter, Response, status, HTTPException, Depends
 from sqlalchemy.orm import Session
