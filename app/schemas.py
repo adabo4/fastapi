@@ -35,6 +35,9 @@ class Post(PostBase):
     class Config:
         from_attributes = True
 
+class PostOut(BaseModel):
+    Post: Post
+    votes: int
 
 class UserCreate(BaseModel):
     email: EmailStr
