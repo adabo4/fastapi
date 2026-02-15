@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "venv\\Scripts\\activate && uvicorn main:app --reload"
+    "start": "venv\\Scripts\\activate && uvicorn app.main:app --reload"
   },
   "keywords": [],
   "author": "",
